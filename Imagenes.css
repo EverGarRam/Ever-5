@@ -1,0 +1,33 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-size: large;
+}
+header{
+    display: flex;
+    background-color: darkred;
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
+.divTitulo{
+    flex: 80%;
+    background-color: darkorange;
+}
+nav{
+    background-color: darkgoldenrod;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+aside{
+    flex: 30%;
+    background-color: darkviolet;
+    padding: 10px;
+    text-align: center;
+}
